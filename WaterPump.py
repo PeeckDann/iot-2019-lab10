@@ -1,13 +1,5 @@
 class WaterPump:
 
-    power_consumption = 0
-    producer = 'producer'
-    volume_of_water_per_hour = 0
-
-    price_in_uah = 0
-    efficiency = 0
-    pump_pressure = 0
-
     pump_id = 10
 
     def __init__(self, power_consumption=100, producer='Vasya', volume_of_water_per_hour=10000, price_in_uah=1000,
